@@ -1,0 +1,125 @@
+* {
+    font-family: roboto,sans-serif;
+}
+
+p {
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.header {
+    padding: 25px 15px;
+}
+
+@media (max-width: 768px) {
+.navbar-collapse {
+    margin-top: 8px;
+}
+}
+
+.navli-custom, .navbar-default .navbar-nav>li>a {
+    letter-spacing: 1px;
+    color: black;
+}
+
+.custom-contact {
+    border: 2px solid #116663;
+    border-radius: 13px;
+}
+
+.brand {
+    padding-bottom: 15px;
+}
+.navbar-default {
+    background-color:#fff;
+    border: none;
+}
+
+.navbar-default .navbar-toggle {
+    border: #fff;
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #fff;;
+}
+
+navbar-custom {
+    color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    color: black;
+    background-color: black;
+}
+
+.custom_nav-divider {
+    border: 1px solid black;
+}
+
+.jumbotron-custom {
+    height: 381px;
+    background: url(/img/banner-home3.jpg);
+    border-radius: 2px!important;
+    position: relative;
+}
+
+.jumbotron-custom-description {
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    width: 30%;
+    background-color: rgba(17, 102, 99, 0.48);
+    color: #fff;
+    padding: 15px;
+    overflow: hidden;
+    border-radius: 2px;
+    max-height: 95%;
+}
+
+.jumbotron-custom p {
+    font-size: 1.6rem;
+}
+
+.home-quicklinks {
+    margin-top: 45px;
+}
+
+.footer {
+    margin-top: 25px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer .container {
+    border-top: 1px solid #333;
+    padding: 15px 0;
+}
+
+
+.navbar-custom-footer {
+    color:black;
+    font-size: 12px;
+}
+
+.navbar-custom-footer a{
+    color:black;
+    font-size: 12px;
+}
+
+.navbar-custom-footer>li>a:focus, .navbar-custom-footer>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar-nav-footer li{
+    display: inline-block;
+}
+
+.border-right {
+    border-right: 1px solid grey;
+}
