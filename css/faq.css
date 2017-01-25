@@ -1,0 +1,9 @@
+.panel-default {
+    border-color: transparent;
+}
+
+.panel-default>.panel-heading {
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+}

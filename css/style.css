@@ -17,6 +17,10 @@ p {
 }
 }
 
+.nav li a {
+    color:black;
+}
+
 .navli-custom, .navbar-default .navbar-nav>li>a {
     letter-spacing: 1px;
     color: black;
@@ -60,7 +64,7 @@ navbar-custom {
 
 .jumbotron-custom {
     height: 381px;
-    background: url(/img/banner-home3.jpg);
+    background: url(../img/banner-home3.jpg);
     border-radius: 2px!important;
     position: relative;
 }
@@ -89,7 +93,7 @@ navbar-custom {
 .footer {
     margin-top: 25px;
     background-color: #fff;
-    position: fixed;
+    position: static;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -122,4 +126,9 @@ navbar-custom {
 
 .border-right {
     border-right: 1px solid grey;
+}
+
+.custom-photo {
+    margin: 15px 0;
+    border: 3px solid #116663;
 }

@@ -1,0 +1,33 @@
+.footer {
+    margin-top: 25px;
+    background-color: #fff;
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer .container {
+    border-top: 1px solid #333;
+    padding: 15px 0;
+}
+
+
+.navbar-custom-footer {
+    color:black;
+    font-size: 12px;
+}
+
+.navbar-custom-footer a{
+    color:black;
+    font-size: 12px;
+}
+
+.navbar-custom-footer>li>a:focus, .navbar-custom-footer>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar-nav-footer li{
+    display: inline-block;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Paedagon | Kinderpflege BFS</title>
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="header"></div>
+    <section class="main-content">
+        <div class="container">
+            <div class="jumbotron jumbotron-custom"> </div>
+            <div class="row">
+                <div class="col-md-3 text-left hidden-xs">
+                    <ul class="nav">
+                        <li class=""><a href="#first-section">1. KinderpflegerIn werden (allgemeine Information)</a></li>
+                        <li class=""><a href="#second-section">2. Ablauf + Inhalt</a></li>
+                        <li class=""><a href="#third-section">3. Prüfung + Abschluss</a></li>
+                        <li class=""><a href="#fourth-section">4. Rechtliche Grundlagen</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-9 text-left col-xs-12">
+                    <div>
+                        <h3 id="first-section" class="text-uppercase">1. Erzieher/In werden</h3>
+                        <p class="text-justify">Der Ausbildungsweg erstreckt sich in der Regel über fünf Jahre (Vollzeit). Aufgabe der Erzieherin/ des Erziehers ist die Erziehung, Bildung und Betreuung von Kindern, Jugendlichen und jungen Erwachsenen von 0-27 Jahren. Die Ausbildung endet bei erfolgreichem Durchlaufen mit der Anerkennung „zur staatlich anerkannten Erzieherin/ zum staatlich anerkannten Erzieher“.</p>
+                        <h5>Berufsbild und Ziel</h5>
+                        <p>Die Berufsfachschule für Kinderpflege vermittelt grundlegende Kenntnisse zur pädagogischen Mitarbeit in verschiedenen sozialpädagogischen Arbeitsfeldern. Die Ausbildung erstreckt sich in der Regel über zwei Jahre (Vollzeit). Aufgabe der Kinderpflegerin/ des Kinderpflegers ist die Erziehung, Bildung und Betreuung von Kindern, überwiegend im Säuglingsalter bis ins frühe Schulalter. Die Ausbildung endet mit der Abschlussprüfung „zur staatlich geprüften Kinderpflegerin/ zum staatlich geprüften Kinderpfleger“. (LP, S. 3) </p>
+                        <h5>Ausbildungsvoraussetzung</h5>
+                        <ul>
+                            <li>Erfolgreicher Mittelschulabschluss</li>
+                            <li>Ärztliche Bescheinigung über Berufseignung</li>
+                            <li>Sechs Monate Probezeit</li>
+                        </ul>
+                        <h5>Ausbildungsverlauf</h5>
+                        <ol>
+                            <li>Jahr: Berufsfachschule für Kinderpflege</li>
+                            <li>Jahr: Berufsfachschule für Kinderpflege</li>
+                        </ol>
+                        <p>Abschluss: „Staatlich geprüfte Kinderpflegerin/ staatlich geprüfter Kinderpfleger“</p>
+                    </div>
+                    <h5>Hinweis zur Mittleren Reife</h5>
+                    <p>Wenn bei der Abschlussprüfung der Berufsfachschule ein Notendurchschnitt von 3,0 oder besser erreicht ist und ein Nachweis ausreichender Englischkenntnisse (= Note 4) auf dem Leistungsstand eines mindestens fünfjährigen Englischunterrichts vorliegt, wird die Mittlere Reife mit dem Abschlusszeugnis der Berufsfachschule zuerkannt.</p>
+                    <div>
+                        <h4 id="second-section" class="text-uppercase">2. Ablauf + Inhalt</h4>
+                        <p class="text-justify">Die Schüler sind in der Regel einen Tag in der Woche an ihrer Praxisstelle (z.B. Krippe, Kindergarten, Kinderhort, Häuser für Kinder, …) und an vier Tagen im Unterricht an der Berufsfachschule.</p>
+                        <p>Der Unterricht erfolgt Lernfeld bezogen. Lernfelder sind:</p>
+                        <ul>
+                            <li>LF1: Personen und Situationen wahrnehmen, Verhalten beobachten und erklären</li>
+                            <li>LF2: Bedürfnisse des täglichen Lebens erkennen und ihnen gerecht werden.</li>
+                            <li>LF3: Erzieherisches Handeln planen, durchführen und reflektieren</li>
+                            <li>LF4: Bildungsprozesse anregen und begleiten</li>
+                            <li>LF5: Beziehungen und Kommunikation gestalten</li>
+                            <li>LF6: Mit allen am Bildungs- und Erziehungsprozess zusammenarbeiten</li>
+                        </ul>
+                        <p>An der Berufsfachschule erfolgt der Unterricht in folgenden Fächern:</p>
+                        <ul>
+                            <li>Pädagogik und Psychologie</li>
+                            <li>Deutsch und Kommunikation</li>
+                            <li>Sozialkunde/ Berufskunde</li>
+                            <li>Mathematisch-naturwissenschaftliche Erziehung</li>
+                            <li>Englisch</li>
+                            <li>Musik und Musikerziehung</li>
+                            <li>Sport- und Bewegungserziehung</li>
+                            <li>Ökologie und Gesundheit</li>
+                            <li>Religionslehre und Religionspädagogik nach Konfession/ Ethik</li>
+                            <li>Praxis- und Methodenlehre/ Medienerziehung</li>
+                            <li>Werkerziehung und Gestaltung</li>
+                            <li>Rechtskunde</li>
+                            <li>Hauswirtschaftliche Erziehung</li>
+                            <li>Säuglingsbetreuung</li>
+                            <li>Sozialpädagogische Praxis</li>
+                            <li>Wahlfächer (z.B. Instrumentalunterricht, Schulband, Lehr- Lern-Szenario, Erlebnispädagogik, Heilpädagogik, Inklusion, Stressmanagement, …)</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 id="third-section" class="text-uppercase">3. Prüfung + Abschluss</h4>
+                        <p class="text-justify">Am Ende des zweiten Schuljahres findet eine verbindliche Abschlussprüfung (schriftlich/ mündlich) statt. Diese ist in allen Pflichtfächern abzulegen. Bei erfolgreichem Bestehen berechtigt diese zur Führung der Berufsbezeichnung „Staatlich geprüfte Kinderpflegerin/ staatlich geprüfter Kinderpfleger“. Diese/r wiederum ist u.a. Voraussetzung für die Aufnahme an eine Fachakademie für Sozialpädagogik.</p>
+                        <p class="text-justify">Sie haben Interesse daran, sich im Anschluss an die Kinderpflegeausbildung zur Erzieherin/ zum Erzieher weiterzubilden? Dann informieren Sie sich auf unserer Homepage unter der Rubrik Fachakademie 1 + 2 Studienjahr. Das Sozialpädagogische Seminar (1 + 2) wird staatlich geprüften Kinderpflegerinnen/ Kinderpflegern erlassen.</p>
+                    </div>
+                    <div>
+                        <h4 id="fourth-section" class="text-uppercase">4. Rechtliche Grundlagen</h4>
+                        <h5>Bayerisches Staatsministerium für Unterricht und Kultus</h5>
+                        <ul>
+                            <li>Lehrplan für die Berufsfachschulen für Kinderpflege 1. + 2. Jahr, i.d.d.g.F.</li>
+                            <li>Berufsfachschulordnung Ernährung und Versorgung, Kinderpflege, Sozialpflege, Hotel – und Tourismusmanagement, Informatik (Berufsfachschulordnung BFSO), i.d.d.g.F. (vom 11. März 2015) <small>Stand: 01.01.2017</small></li>
+                            <li>Bayerisches Erziehungs- und Unterrichtsgesetz (BayEUG)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="footer"></div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("/view/header.html");
+            $("#footer").load("/view/footer.html");
+        });
+    </script>
+</body>
+
+</html>
