@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Paedagon | Schulträger</title>
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .col-custom-margin {
+            margin: 25px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header"></div>
+    <section class="main-content">
+        <div class="container">
+            <div id="map" class="jumbotron map" style="height:381px;"></div>
+            <div class="row">
+                <div class="col-md-3 text-left hidden-xs">
+                    <ul class="nav">
+                        <li class=""><a href="#first-section">Kontakt</a></li>
+                        <li class=""><a href="#second-section">1. Bewerbung</a></li>
+                        <li class=""><a href="#third-section">2. Schüler-/Elterninfo €</a></li>
+                        <li class=""><a href="#fourth-section">3. Praxis-/Trägerinfo §</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-9 text-left col-xs-12">
+                    <div>
+                        <h3 id="first-section" class="text-uppercase">Kontakt</h3>
+                        <p>In unserem Netzwerk arbeiten verschiedene Personen, Gruppen und Institutionen (z.B. Anleiter, Lehrkräfte, Schule, Kindertageseinrichtungen, Heime, Träger …) zusammen, um gemeinsam ein erwünschtes Ziel (hier: bestmögliche Bedingungen für die Erzieher-/ Kinderpflegeausbildung) zu erreichen. Fachliche und soziale Ressourcen werden dadurch gebündelt, die Effektivität erhöht - in diesem Zusammenhang spricht man auch vom Synergieeffekt.</p>
+                    </div>
+                    <div>
+                        <h3 id="second-section" class="text-uppercase">1.Überblick KiTas & Co</h3>
+                        <p class="text-justify"><a href="https://www.landkreis-cham.de/service-beratung/kindertageseinrichtungen/">https://www.landkreis-cham.de/service-beratung/kindertageseinrichtungen/</a></p>
+                    </div>
+                    <div>
+                        <h3 id="second-section" class="text-uppercase">2. Überblick Heime & Co</h3>
+                        <p>Übersicht über die sozialen Einrichtungen der Region</p>
+                        <ul>
+                            <li><strong>Bildungsstätte St. Gunther</strong>
+                                <br> St.-Gunther-Straße 22
+                                <br> 93413 Cham
+                                <br> Schul- und Einrichtungsleiter: Thomas Herbst, SoR
+                                <br> www.st-gunther-cham.de
+                            </li>
+                            <li><strong>Thomas Wiser Haus</strong>(AS Willmering)
+                                <br> Hauptstr. 11-15
+                                <br> 93128 Regenstauf
+                                <br> Geschäftsführer: Karl-Heinz Weiß
+                                <br>www.thomas-wiser-haus.de
+                            </li>
+                            <li><strong>Dr. Loew`sche Einrichtungen</strong>
+                                <br> http://www.dr.loew.de/
+                            </li>
+                            <li><strong>Dr. Loew`sche Einrichtungen</strong>
+                                <br> http://www.dr.loew.de/
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- end col-md-9 text-left col-xs-12 -->
+            </div>
+        </div>
+    </section>
+    <div id="footer"></div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("/view/header.html");
+            $("#footer").load("/view/footer.html");
+        });
+    </script>
+</body>
+
+</html>
