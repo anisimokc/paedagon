@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Paedagon | Schulträger</title>
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .col-custom-margin {
+            margin: 25px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header"></div>
+    <section class="main-content">
+        <div class="container">
+            <div id="map" class="jumbotron map" style="height:381px;"></div>
+            <div class="row">
+                <div class="col-md-3 text-left hidden-xs">
+                    <ul class="nav">
+                        <li class=""><a href="#first-section">Kontakt</a></li>
+                        <li class=""><a href="#second-section">1. Bewerbung</a></li>
+                        <li class=""><a href="#third-section">3. Fachakademie für Sozialpädagogik (1. + 2. Studienjahr)</a></li>
+                        <li class=""><a href="#fourth-section">4. Berufspraktikum (5. Jahr) </a></li>
+                        <li class=""><a href="#fifth-section">5. Rechtliche Grundlagen</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-9 text-left col-xs-12">
+                    <div></div>
+                    <h3 id="first-section" class="text-uppercase">Kontakt</h3>
+                    <p>Sie haben Interesse daran, eine Ausbildung an unserer Fachakademie für Sozialpädagogik oder unserer Berufsfachschule für Kinderpflege zu absolvieren und haben Fragen dazu? Wir sind gerne für Sie da! Schreiben Sie uns eine e-mail oder rufen Sie uns einfach an!</p>
+                    <div class="col-md-6 col-custom-margin"> <img class="img-circle img-responsive custom-photo" src="/img/teacher/tgrotz.jpg" />
+                        <p><strong>Schulleitung: </strong>Dr. Tanja M. Grotz</p>
+                        <p><strong>E-mail: </strong>schulleitung@paedagon.de</p>
+                    </div>
+                    <div class="col-md-6 col-custom-margin"> <img class="img-circle img-responsive custom-photo" src="/img/teacher/unknown.jpg" />
+                        <p><strong>Schulverwaltung: </strong>Hans Korherr</p>
+                        <p><strong>E-mail: </strong>schulverwaltung@paedagon.de</p>
+                    </div>
+                    <hr>
+                    <div class="col-md-6">
+                        <h5>Schulen</h5> <address>
+                        <strong>Telefon: </strong>09973 – 802976<br>
+                        <strong>Fax: </strong>09973 - 802991<br>
+                        <strong>Internet: </strong>http://paedagon.de<br>
+                        </address> </div>
+                    <div class="col-md-6">
+                        <h5>Anschrift der Schulen</h5> <address>
+                        Fachakademie für Sozialpädagogik & Berufsfachschule für Kinderpflege<br>
+                        Rosenstraße 6<br>
+                        93437 Furth im Wald<br>
+                        </address> </div>
+                    <hr class="custom_nav-divider">
+                    <div>
+                        <h3 id="second-section" class="text-uppercase">1. Bewerbung</h3>
+                        <p class="text-justify">Sie haben sich entschieden und möchten gerne eine Ausbildung zur Erzieherin/ zum Erzieher oder zur Kinderpflegerin/ zum Kinderpfleger absolvieren? Dann bewerben Sie sich! Bewerbungen an der Fachakademie für Sozialpädagogik sowie an der Berufsfachschule für Kinderpflege sind jederzeit (auch bereits für die Folgejahre) möglich.</p>
+                        <h5>Inhalt</h5>
+                        <ul>
+                            <li>Motivationsschreiben</li>
+                            <li>Lichtbild</li>
+                            <li>Lebenslauf</li>
+                            <li>Kopie des letzten Zeugnisses</li>
+                            <li>Nachweis über sozialpädagogische Praktika/ ggf. Ehrenamt</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- end col-md-9 text-left col-xs-12 -->
+            </div>
+        </div>
+    </section>
+    <div id="footer"></div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("/view/header.html");
+            $("#footer").load("/view/footer.html");
+        });
+    </script>
+    <script>
+        function initMap() {
+            // Create a map object and specify the DOM element for display.
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: {
+                    lat: -34.397
+                    , lng: 150.644
+                }
+                , scrollwheel: false
+                , zoom: 8
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDr5bIZtkRrTuOPDpUFApW0yHkbp9hLtVg&callback=initMap">
+    </script>
+</body>
+
+</html>
