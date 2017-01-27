@@ -1,5 +1,5 @@
 * {
-    font-family: roboto,sans-serif;
+    font-family: roboto, sans-serif;
 }
 
 p {
@@ -17,16 +17,18 @@ a {
 }
 
 @media (max-width: 768px) {
-.navbar-collapse {
-    margin-top: 8px;
-}
+    .navbar-collapse {
+        margin-top: 8px;
+    }
+
 }
 
 .nav li a {
-    color:black;
+    color: black;
 }
 
-.navli-custom, .navbar-default .navbar-nav>li>a {
+.navli-custom,
+.navbar-default .navbar-nav>li>a {
     letter-spacing: 1px;
     color: black;
 }
@@ -39,8 +41,9 @@ a {
 .brand {
     padding-bottom: 15px;
 }
+
 .navbar-default {
-    background-color:#fff;
+    background-color: #fff;
     border: none;
 }
 
@@ -51,7 +54,8 @@ a {
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-    background-color: #fff;;
+    background-color: #fff;
+    ;
 }
 
 navbar-custom {
@@ -78,7 +82,7 @@ navbar-custom {
     position: absolute;
     left: 0;
     bottom: 5%;
-    width: 30%;
+    width: 40%;
     background-color: rgba(17, 102, 99, 0.48);
     color: #fff;
     padding: 15px;
@@ -109,31 +113,35 @@ navbar-custom {
     padding: 15px 0;
 }
 
-
 .navbar-custom-footer {
-    color:black;
+    color: black;
     font-size: 12px;
 }
 
-.navbar-custom-footer a{
-    color:black;
+.navbar-custom-footer a {
+    color: black;
     font-size: 12px;
 }
 
-.navbar-custom-footer>li>a:focus, .navbar-custom-footer>li>a:hover {
+.navbar-custom-footer>li>a:focus,
+.navbar-custom-footer>li>a:hover {
     text-decoration: none;
     background-color: transparent;
 }
 
-.navbar-nav-footer li{
+.navbar-nav-footer li {
     display: inline-block;
 }
 
-.border-right {
+.border-right {
     border-right: 1px solid grey;
 }
 
 .custom-photo {
     margin: 15px 0;
     border: 3px solid #116663;
+}
+
+.col-custom-margin {
+    margin: 25px 0;
 }
