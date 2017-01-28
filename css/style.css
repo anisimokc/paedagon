@@ -13,7 +13,16 @@ a {
 }
 
 .header {
-    padding: 25px 15px;
+    padding: 15px 15px;
+}
+
+.header-petrol, .header-petrol li a {
+    background-color:#116663;
+    color:#fff;
+}
+
+.main-content {
+    margin-right: 30px;
 }
 
 @media (max-width: 768px) {
@@ -30,7 +39,8 @@ a {
 .navli-custom,
 .navbar-default .navbar-nav>li>a {
     letter-spacing: 1px;
-    color: black;
+    /* Navbar li colors */
+    color: #fff;
 }
 
 .custom-contact {
@@ -49,7 +59,7 @@ a {
 
 .navbar-default .navbar-toggle {
     border: #fff;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-toggle:focus,
@@ -138,7 +148,7 @@ navbar-custom {
 }
 
 .custom-photo {
-    margin: 15px 0;
+    margin: 5px 0;
     border: 3px solid #116663;
 }
 
