@@ -1,5 +1,5 @@
 * {
-    font-family: roboto,sans-serif;
+    font-family: roboto, sans-serif;
 }
 
 body {
@@ -16,21 +16,53 @@ a {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 @media (max-width: 768px) {
 .navbar-collapse {
     margin-top: 8px;
-}
+=======
+.header {
+    padding: 15px 15px;
 }
 
+.header-petrol, .header-petrol li a {
+    background-color:#116663;
+    color:#fff;
+}
+
+.main-content {
+    margin-right: 30px;
+>>>>>>> origin/master
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        margin-top: 8px;
+    }
+
+}
+
+<<<<<<< HEAD
 /* header */
+=======
+.nav li a {
+    color: black;
+}
+>>>>>>> origin/master
 
-.navli-custom, .navbar-default .navbar-nav>li>a {
+.navli-custom,
+.navbar-default .navbar-nav>li>a {
     letter-spacing: 1px;
+<<<<<<< HEAD
     color: #fff;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
     color:#fafafa;
+=======
+    /* Navbar li colors */
+    color: #fff;
+>>>>>>> origin/master
 }
 
 .custom-contact {
@@ -41,8 +73,13 @@ a {
 .brand {
     padding: 15px;
 }
+
 .navbar-default {
+<<<<<<< HEAD
     background-color: #116663;
+=======
+    background-color: #fff;
+>>>>>>> origin/master
     border: none;
     margin-bottom: 0;
     padding: 10px 0;
@@ -50,13 +87,26 @@ a {
 
 .navbar-default .navbar-toggle {
     border: #fff;
+<<<<<<< HEAD
     background-color: #116663;
+=======
+    background-color: transparent;
+>>>>>>> origin/master
 }
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
+<<<<<<< HEAD
     background-color: #116663;
     color: #fafafa;
+=======
+    background-color: #fff;
+    ;
+}
+
+navbar-custom {
+    color: black;
+>>>>>>> origin/master
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -85,7 +135,7 @@ a {
     position: absolute;
     left: 0;
     bottom: 5%;
-    width: 30%;
+    width: 40%;
     background-color: rgba(17, 102, 99, 0.48);
     color: #fff;
     padding: 15px;
@@ -127,25 +177,37 @@ a {
 }
 
 .navbar-custom-footer {
-    color:black;
+    color: black;
     font-size: 12px;
 }
 
-.navbar-custom-footer a{
-    color:black;
+.navbar-custom-footer a {
+    color: black;
     font-size: 12px;
 }
 
-.navbar-custom-footer>li>a:focus, .navbar-custom-footer>li>a:hover {
+.navbar-custom-footer>li>a:focus,
+.navbar-custom-footer>li>a:hover {
     text-decoration: none;
     background-color: transparent;
 }
 
-.navbar-nav-footer li{
+.navbar-nav-footer li {
     display: inline-block;
 }
 
-.border-right {
+.border-right {
     border-right: 1px solid grey;
 }
 
+<<<<<<< HEAD
+=======
+.custom-photo {
+    margin: 5px 0;
+    border: 3px solid #116663;
+}
+
+.col-custom-margin {
+    margin: 25px 0;
+}
+>>>>>>> origin/master
