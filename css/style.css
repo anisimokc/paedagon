@@ -1,213 +1,163 @@
-* {
-    font-family: roboto, sans-serif;
-}
-
-body {
-    background-color: #f7f7f7;
-}
-
-p {
-    padding: 0!important;
-    margin: 0!important;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-}
-
-<<<<<<< HEAD
-@media (max-width: 768px) {
-.navbar-collapse {
-    margin-top: 8px;
-=======
-.header {
-    padding: 15px 15px;
-}
-
-.header-petrol, .header-petrol li a {
-    background-color:#116663;
-    color:#fff;
-}
-
-.main-content {
-    margin-right: 30px;
->>>>>>> origin/master
-}
-
-@media (max-width: 768px) {
-    .navbar-collapse {
-        margin-top: 8px;
+    * {
+        font-family: roboto, sans-serif;
     }
 
-}
+    body {
+        background-color: #f7f7f7;
+    }
 
-<<<<<<< HEAD
-/* header */
-=======
-.nav li a {
-    color: black;
-}
->>>>>>> origin/master
+    p {
+        padding: 0!important;
+        margin: 0!important;
+    }
 
-.navli-custom,
-.navbar-default .navbar-nav>li>a {
-    letter-spacing: 1px;
-<<<<<<< HEAD
-    color: #fff;
-}
+    a {
+        color: black;
+        text-decoration: none;
+    }
 
-.navbar-default .navbar-nav>li>a:hover {
-    color:#fafafa;
-=======
-    /* Navbar li colors */
-    color: #fff;
->>>>>>> origin/master
-}
+    @media (max-width: 768px) {
+        .navbar-collapse {
+            margin-top: 8px;
+        }
+    }
 
-.custom-contact {
-    border: 2px solid #116663;
-    border-radius: 13px;
-}
+    .header {
+        padding: 15px 0;
+    }
 
-.brand {
-    padding: 15px;
-}
+    /* header */
 
-.navbar-default {
-<<<<<<< HEAD
-    background-color: #116663;
-=======
-    background-color: #fff;
->>>>>>> origin/master
-    border: none;
-    margin-bottom: 0;
-    padding: 10px 0;
-}
+    .navli-custom,
+    .navbar-default .navbar-nav>li>a {
+        letter-spacing: 1px;
+        color: #fff;
+    }
 
-.navbar-default .navbar-toggle {
-    border: #fff;
-<<<<<<< HEAD
-    background-color: #116663;
-=======
-    background-color: transparent;
->>>>>>> origin/master
-}
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #fafafa;
+    }
 
-.navbar-default .navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover {
-<<<<<<< HEAD
-    background-color: #116663;
-    color: #fafafa;
-=======
-    background-color: #fff;
-    ;
-}
+    .custom-contact {
+        border: 2px solid #116663;
+        border-radius: 13px;
+    }
 
-navbar-custom {
-    color: black;
->>>>>>> origin/master
-}
+    .navbar-default {
+        background-color: #116663;
+        border: none;
+        margin-bottom: 0!important;
+        padding: 10px 0;
+    }
 
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
-}
+    .navbar-default .navbar-toggle {
+        border: #fff;
+        background-color: #116663;
+        background-color: transparent;
+    }
 
-.custom_nav-divider {
-    border: 1px solid black;
-}
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #116663;
+        ;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .custom_nav-divider {
+        border: 1px solid black;
+        margin: 15px 0;
+    }
+    /* main */
+
+    .main-content {
+        margin-top: 35px 0;
+    }
+
+    .custom_section {
+        margin-bottom: 30px;
+    }
+
+    .jumbotron-custom {
+        height: 381px;
+        background: url(../img/banner-home3.jpg);
+        border-radius: 2px!important;
+        position: relative;
+    }
+
+    .jumbotron-custom-description {
+        position: absolute;
+        left: 0;
+        bottom: 5%;
+        width: 40%;
+        background-color: rgba(17, 102, 99, 0.48);
+        color: #fff;
+        padding: 15px;
+        overflow: hidden;
+        border-radius: 2px;
+        max-height: 95%;
+    }
+
+    .jumbotron-custom p {
+        font-size: 1.6rem;
+    }
+
+    .custom-photo {
+        margin: 15px 0;
+        border: 3px solid #116663;
+    }
+
+    .home-quicklinks {
+        margin: 35px 0;
+    }
 
 
-/* main */
+    /* footer */
 
-.custom_section {
-    margin-bottom: 25px;
-}
+    .footer {
+        background-color: transparent;
+        position: static;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
 
-.jumbotron-custom {
-    height: 381px;
-    background: url(../img/banner-home3.jpg);
-    border-radius: 2px!important;
-    position: relative;
-}
+    .footer .container {
+        border-top: 1px solid #333;
+        padding: 15px 0;
+    }
 
-.jumbotron-custom-description {
-    position: absolute;
-    left: 0;
-    bottom: 5%;
-    width: 40%;
-    background-color: rgba(17, 102, 99, 0.48);
-    color: #fff;
-    padding: 15px;
-    overflow: hidden;
-    border-radius: 2px;
-    max-height: 95%;
-}
+    .navbar-custom-footer {
+        color: black;
+        font-size: 12px;
+    }
 
-.jumbotron-custom p {
-    font-size: 1.6rem;
-}
+    .navbar-custom-footer a {
+        color: black;
+        font-size: 12px;
+    }
 
-.custom-photo {
-    margin: 15px 0;
-    border: 3px solid #116663;
-}
+    .navbar-custom-footer>li>a:focus,
+    .navbar-custom-footer>li>a:hover {
+        text-decoration: none;
+        background-color: transparent;
+    }
 
-.home-quicklinks {
-    margin: 35px 0;
-}
+    .navbar-nav-footer li {
+        display: inline-block;
+    }
 
-.main-content {
-    margin-top: 35px;
-}
+    .border-right {
+        border-right: 1px solid grey;
+    }
 
-/* footer */
+    .custom-photo {
+        margin: 5px 0;
+        border: 3px solid #116663;
+    }
 
-.footer {
-    background-color: transparent;
-    position: static;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
-
-.footer .container {
-    border-top: 1px solid #333;
-    padding: 15px 0;
-}
-
-.navbar-custom-footer {
-    color: black;
-    font-size: 12px;
-}
-
-.navbar-custom-footer a {
-    color: black;
-    font-size: 12px;
-}
-
-.navbar-custom-footer>li>a:focus,
-.navbar-custom-footer>li>a:hover {
-    text-decoration: none;
-    background-color: transparent;
-}
-
-.navbar-nav-footer li {
-    display: inline-block;
-}
-
-.border-right {
-    border-right: 1px solid grey;
-}
-
-<<<<<<< HEAD
-=======
-.custom-photo {
-    margin: 5px 0;
-    border: 3px solid #116663;
-}
-
-.col-custom-margin {
-    margin: 25px 0;
-}
->>>>>>> origin/master
+    .col-custom-margin {
+        margin: 25px 0;
+    }

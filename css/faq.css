@@ -4,11 +4,11 @@
 
 .panel-default>.panel-heading {
     color: black;
-    background-color: #fafafa;
+    background-color: #f7f7f7;
     border-color: transparent;
 }
 
 .panel {
-    background-color: #fafafa;
+    background-color: #f7f7f7;
     box-shadow: none;
 }
