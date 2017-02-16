@@ -1,3 +1,7 @@
 .jumbotron-custom {
     background: url(/img/banner-erzieher.jpg)!important;
 }
+.jumbotron-custom-sm {
+    height: 381px;
+    background: url(/img/erzieher_sm.jpg)!important;
+}

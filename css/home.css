@@ -1,3 +1,10 @@
+
 .jumbotron-custom {
-    background: url(/img/home.jpg)!important;
+    background: url(/img/banner-home.jpg)!important;
+}
+
+.jumbotron-custom-sm {
+    height: 381px;
+    background: url(/img/home_sm.jpg)!important;
+    position: relative;
 }

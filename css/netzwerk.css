@@ -1,3 +1,8 @@
 .jumbotron-custom {
     background: url(/img/banner-netzwerk.jpg)!important;
 }
+
+.jumbotron-custom-sm {
+    height: 381px;
+    background: url(/img/netzwerk_sm.jpg)!important;
+}

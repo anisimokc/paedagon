@@ -1,3 +1,7 @@
 .jumbotron-custom {
     background: url(/img/banner-kinderpflege.jpg)!important;
 }
+.jumbotron-custom-sm {
+    height: 381px;
+    background: url(/img/kinderpflege_sm.jpg)!important;
+}

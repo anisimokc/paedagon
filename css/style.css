@@ -89,7 +89,7 @@ a:hover {
     position: relative;
 }
 
-.jumbotron-custom-description {
+.jumbotron-custom-description, .jumbotron-custom-description-sm {
     position: absolute;
     left: 0;
     bottom: 5%;
@@ -101,8 +101,11 @@ a:hover {
     border-radius: 2px;
     max-height: 95%;
 }
+.jumbotron-custom-description-sm {
+    width: 60%;
+}
 
-.jumbotron-custom p {
+.jumbotron-custom p, .jumbotron-custom-sm p {
     font-size: 1.6rem;
 }
 
