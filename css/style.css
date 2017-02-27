@@ -177,3 +177,13 @@ a:hover {
 .border-right {
     border-right: 1px solid grey;
 }
+
+/* Bilder */
+.inhalt-bilder{
+    width: 350px;
+}
+
+.wilkommen-bild{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

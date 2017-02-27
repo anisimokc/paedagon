@@ -12,3 +12,14 @@
     background-color: #f7f7f7;
     box-shadow: none;
 }
+
+
+.jumbotron-custom {
+    background: url(/img/banner-faq.jpg)!important;
+}
+
+.jumbotron-custom-sm {
+    height: 381px;
+    background: url(/img/banner-faq-sm.jpg)!important;
+    position: relative;
+}
